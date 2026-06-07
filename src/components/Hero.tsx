@@ -8,12 +8,22 @@ export default function Hero() {
     >
       {/* Background */}
       <div className="absolute inset-0">
+        {/* モバイル用 */}
         <Image
-          src="https://placehold.co/1920x1080/1a1410/c9a96e?text=FV"
+          src="/images/fv/fv_main_mobile_01.webp"
           alt="麺匠龍神 ファーストビュー"
           fill
           priority
-          className="object-cover"
+          className="object-cover md:hidden"
+          sizes="100vw"
+        />
+        {/* デスクトップ用 */}
+        <Image
+          src="/images/fv/fv_main_pc_01.webp"
+          alt="麺匠龍神 ファーストビュー"
+          fill
+          priority
+          className="object-cover hidden md:block"
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0e0c09]/60 via-[#0e0c09]/30 to-[#0e0c09]/85" />
