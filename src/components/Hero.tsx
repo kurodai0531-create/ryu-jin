@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         {/* モバイル用 */}
         <Image
-          src="/images/fv/fv_main_mobile_01.webp"
+          src="/images/fv/fv_main_mobile_02.webp"
           alt="麺匠龍神 ファーストビュー"
           fill
           priority
@@ -19,7 +19,7 @@ export default function Hero() {
         />
         {/* デスクトップ用 */}
         <Image
-          src="/images/fv/fv_main_pc_01.webp"
+          src="/images/fv/fv_main_pc_02.webp"
           alt="麺匠龍神 ファーストビュー"
           fill
           priority

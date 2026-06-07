@@ -9,7 +9,7 @@ const menuItems = [
       "72時間炊き込んだ清湯スープに秘伝の醤油タレを合わせた看板メニュー。",
     price: "¥1,400",
     tag: "看板",
-    image: "https://placehold.co/600x400/1a1410/c9a96e?text=Shoyu+Ramen",
+    image: "/images/menu/menu_shoyu-orig_01.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const menuItems = [
       "厳選素材から引き出した黄金色の塩スープ。食材本来の旨みを堪能できます。",
     price: "¥1,350",
     tag: "おすすめ",
-    image: "https://placehold.co/600x400/221e18/c9a96e?text=Shio+Ramen",
+    image: "/images/menu/menu_shio-ramen_orig_01.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const menuItems = [
       "信州産味噌を独自にブレンド。コクと旨みが溶け合う重厚な一杯です。",
     price: "¥1,450",
     tag: "人気",
-    image: "https://placehold.co/600x400/1a1410/c9a96e?text=Miso+Ramen",
+    image: "/images/menu/menu_miso-ramen_orig_01.jpg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const menuItems = [
       "濃厚な辛口つけだれと自家製太麺の組み合わせ。麺の旨みを存分に。",
     price: "¥1,500",
     tag: "限定",
-    image: "https://placehold.co/600x400/221e18/c9a96e?text=Tsukemen",
+    image: "/images/menu/menu_tsukemen_orig_01.jpg",
   },
 ];
 

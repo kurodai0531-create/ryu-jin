@@ -32,15 +32,14 @@ export default function Concept() {
 
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           {/* Image */}
-          <div className="relative aspect-[4/5]">
+          <div className="relative aspect-[2/3] overflow-hidden">
             <Image
-              src="https://placehold.co/800x1000/1a1410/c9a96e?text=Concept"
+              src="/images/store/concept_main_01.jpg"
               alt="店主のこだわり"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 90vw, 45vw"
             />
-            <div className="absolute -bottom-5 -right-5 w-full h-full border border-[#c9a96e]/25 pointer-events-none" />
           </div>
 
           {/* Text */}
