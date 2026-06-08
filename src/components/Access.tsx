@@ -21,11 +21,11 @@ export default function Access() {
             <div>
               <p className="text-[#c9a96e] text-[10px] tracking-[0.5em] mb-3">ADDRESS</p>
               <p className="text-[#ede8de]/70 text-sm leading-8">
-                〒000-0000
+                〒190-0012
                 <br />
-                東京都○○区○○町1-2-3 RYUJINビル 1F
+                東京都立川市曙町2-14-8 龍神ビル1F
                 <br />
-                ○○駅 徒歩3分
+                JR立川駅 北口より徒歩3分
               </p>
             </div>
 
@@ -74,20 +74,18 @@ export default function Access() {
           </div>
 
           {/* Map */}
-          <div className="w-full min-h-[360px] bg-[#221e18] border border-[#2e2820] flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-10 h-10 border-2 border-[#c9a96e] rounded-full flex items-center justify-center mx-auto mb-5">
-                <div className="w-2.5 h-2.5 bg-[#c9a96e] rounded-full" />
-              </div>
-              <p className="text-[#9a9080] text-sm tracking-widest mb-2">
-                Google Maps
-              </p>
-              <p className="text-[#9a9080]/50 text-xs leading-6">
-                実際の住所が確定したら
-                <br />
-                Google Maps の埋め込みを設置します
-              </p>
-            </div>
+          <div className="w-full min-h-[360px]">
+            <iframe
+              src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%AB%8B%E5%B7%9D%E5%B8%82%E6%9B%99%E7%94%BA1%E4%B8%81%E7%9B%AE31-1&output=embed&z=16&hl=ja"
+              width="100%"
+              height="100%"
+              className="w-full min-h-[360px]"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="麺匠龍神 地図"
+            />
           </div>
         </div>
       </div>

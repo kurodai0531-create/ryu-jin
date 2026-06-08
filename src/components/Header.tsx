@@ -49,12 +49,6 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            className="ml-4 px-5 py-2 border border-[#c9a96e] text-[#c9a96e] text-xs tracking-widest hover:bg-[#c9a96e] hover:text-[#0e0c09] transition-all duration-200"
-          >
-            ご予約
-          </a>
         </nav>
 
         {/* Hamburger */}
@@ -98,13 +92,6 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#contact"
-            onClick={() => setIsOpen(false)}
-            className="inline-block text-center py-3 border border-[#c9a96e] text-[#c9a96e] text-sm tracking-widest hover:bg-[#c9a96e] hover:text-[#0e0c09] transition-all"
-          >
-            ご予約
-          </a>
         </nav>
       </div>
     </header>

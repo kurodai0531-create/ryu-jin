@@ -50,16 +50,16 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#contact"
+            href="#menu"
             className="w-56 py-4 bg-[#c9a96e] text-[#0e0c09] font-bold tracking-[0.2em] text-sm hover:bg-[#e8d5a3] transition-colors duration-300 text-center"
           >
-            ご予約はこちら
+            メニューを見る
           </a>
           <a
-            href="#menu"
+            href="#access"
             className="w-56 py-4 border border-[#ede8de]/40 text-[#ede8de] hover:border-[#c9a96e] hover:text-[#c9a96e] transition-colors duration-300 text-sm tracking-[0.2em] text-center"
           >
-            メニューを見る
+            アクセス
           </a>
         </div>
       </div>

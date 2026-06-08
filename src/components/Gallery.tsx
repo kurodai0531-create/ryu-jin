@@ -2,34 +2,34 @@ import Image from "next/image";
 
 const items = [
   {
-    src: "https://placehold.co/800x800/1a1410/c9a96e?text=料理+1",
-    alt: "特製醤油ラーメン",
+    src: "/images/store/gallery_main_orig_01.jpg",
+    alt: "麺匠龍神 メイン",
     className: "col-span-2 row-span-2",
+    sizes: "(max-width: 768px) 100vw, 50vw",
   },
   {
-    src: "https://placehold.co/600x400/221e18/c9a96e?text=料理+2",
-    alt: "黄金塩ラーメン",
+    src: "/images/store/gallery_sub_orig_01.jpg",
+    alt: "麺匠龍神",
     className: "",
+    sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "https://placehold.co/600x400/1a1410/c9a96e?text=店内+1",
-    alt: "店内カウンター",
+    src: "/images/store/gallery_sub_orig_02.jpg",
+    alt: "麺匠龍神",
     className: "",
+    sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "https://placehold.co/600x400/221e18/c9a96e?text=調理+1",
-    alt: "調理シーン",
+    src: "/images/store/gallery_sub_orig_03.jpg",
+    alt: "麺匠龍神",
     className: "",
+    sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "https://placehold.co/600x400/1a1410/c9a96e?text=食材",
-    alt: "厳選食材",
+    src: "/images/store/gallery_sub_orig_04.jpg",
+    alt: "麺匠龍神",
     className: "",
-  },
-  {
-    src: "https://placehold.co/1200x600/221e18/c9a96e?text=店内+2",
-    alt: "店内全景",
-    className: "col-span-2",
+    sizes: "(max-width: 768px) 50vw, 25vw",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Gallery() {
                 alt={item.alt}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes={item.sizes}
               />
               <div className="absolute inset-0 bg-[#0e0c09]/0 group-hover:bg-[#0e0c09]/40 transition-colors duration-500" />
               <div className="absolute inset-0 flex items-end p-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">

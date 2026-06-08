@@ -6,7 +6,6 @@ import Gallery from "@/components/Gallery";
 import Staff from "@/components/Staff";
 import News from "@/components/News";
 import Access from "@/components/Access";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
         <Staff />
         <News />
         <Access />
-        <Contact />
       </main>
       <Footer />
     </>
