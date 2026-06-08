@@ -3,31 +3,31 @@ import Image from "next/image";
 const items = [
   {
     src: "/images/store/gallery_main_orig_01.webp",
-    alt: "麺匠龍神 メイン",
+    alt: "龍神特製醤油ラーメン",
     className: "col-span-2 row-span-2",
     sizes: "(max-width: 768px) 100vw, 50vw",
   },
   {
     src: "/images/store/gallery_sub_orig_01.webp",
-    alt: "麺匠龍神",
+    alt: "店外",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
     src: "/images/store/gallery_sub_orig_02.webp",
-    alt: "麺匠龍神",
+    alt: "店内",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
     src: "/images/store/gallery_sub_orig_03.webp",
-    alt: "麺匠龍神",
+    alt: "カウンター席",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
     src: "/images/store/gallery_sub_orig_04.webp",
-    alt: "麺匠龍神",
+    alt: "厨房",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
