@@ -2,31 +2,31 @@ import Image from "next/image";
 
 const items = [
   {
-    src: "/images/store/gallery_main_orig_01.jpg",
+    src: "/images/store/gallery_main_orig_01.webp",
     alt: "麺匠龍神 メイン",
     className: "col-span-2 row-span-2",
     sizes: "(max-width: 768px) 100vw, 50vw",
   },
   {
-    src: "/images/store/gallery_sub_orig_01.jpg",
+    src: "/images/store/gallery_sub_orig_01.webp",
     alt: "麺匠龍神",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "/images/store/gallery_sub_orig_02.jpg",
+    src: "/images/store/gallery_sub_orig_02.webp",
     alt: "麺匠龍神",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "/images/store/gallery_sub_orig_03.jpg",
+    src: "/images/store/gallery_sub_orig_03.webp",
     alt: "麺匠龍神",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",
   },
   {
-    src: "/images/store/gallery_sub_orig_04.jpg",
+    src: "/images/store/gallery_sub_orig_04.webp",
     alt: "麺匠龍神",
     className: "",
     sizes: "(max-width: 768px) 50vw, 25vw",

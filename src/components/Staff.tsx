@@ -16,7 +16,7 @@ export default function Staff() {
           {/* Photo */}
           <div className="relative aspect-[3/2] w-full overflow-hidden">
             <Image
-              src="/images/staff/staff_owner_02.jpg"
+              src="/images/staff/staff_owner_02.webp"
               alt="店主"
               fill
               className="object-cover"

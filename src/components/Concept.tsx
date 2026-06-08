@@ -34,7 +34,7 @@ export default function Concept() {
           {/* Image */}
           <div className="relative aspect-[2/3] overflow-hidden">
             <Image
-              src="/images/store/concept_main_01.jpg"
+              src="/images/store/concept_main_01.webp"
               alt="店主のこだわり"
               fill
               className="object-cover"
