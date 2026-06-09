@@ -1,8 +1,10 @@
 # 納品物まとめ — 麺匠 龍神 ホームページ
 
-**納品日：** 2026年6月8日  
+**納品日：** 2026年6月9日  
 **制作者：** murayamakatsumi  
 **クライアント：** 麺匠 龍神 様
+
+**本番URL：** https://ryu-jin.vercel.app
 
 ---
 
@@ -18,6 +20,11 @@
 | 6 | ファイル命名規則 | `docs/naming-rule.md` |
 | 7 | SEO画像戦略 | `docs/seo-image-strategy.md` |
 | 8 | 本納品まとめ | `docs/client-handover.md` |
+
+**本番URL：**
+```
+https://ryu-jin.vercel.app
+```
 
 **GitHubリポジトリ（ソースコード保管場所）：**
 ```
